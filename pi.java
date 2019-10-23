@@ -3,6 +3,10 @@ class corvus {
     private float length;
     private String color;
     
+    public corvus(float length, String color){
+        this.length = length;
+        this.color = color;
+    }
     public String getHabitat(){
         return habitat;
     }
@@ -16,29 +20,15 @@ class corvus {
     }
 
     public void setLength(String length){
-        this.length = lenght;
+        this.length = length;
     }
 
     public String getColor(){
         return color;
     }
 
-    public String setColor(String color){
+    public void setColor(String color){
         this.color = color;
     }
 
-    /*
-    
-    atic void makingSound(){
-    sound = “I AM THE SPECIFIC CROW!”;
-    }
-    
-    void setColor(String c){
-    this.color = c;
-    }
-    
-    static void daysToEat(String animal){
-    if (animal.equals(“elephant”)
-    System.out.println(“This is going to take a while...”);
-*/
 }
